@@ -37,11 +37,11 @@
         --color-border-dark: #45475a;
         --color-border-maxcontrast: #585b70;
 
-        --color-primary-element: #45475a;
-        --color-primary-element-rgb: 69, 71, 90;
-        --color-primary-element-hover: #313244;
+        --color-primary-element: #cba6f7;
+        --color-primary-element-rgb: 203, 166, 247;
+        --color-primary-element-hover: #7f849c;
 
-        --color-primary-element-text: #cdd6f4;
+        --color-primary-element-text: #1e1e2e;
 
         --color-primary-element-light: #313244;
         --color-primary-element-light-rgb: 49, 50, 68;
@@ -87,25 +87,28 @@
         --color-border-dark: #bcc0cc;
         --color-border-maxcontrast: #acb0be;
 
-        --color-primary-element: #bcc0cc;
-        --color-primary-element-rgb: 188, 192, 204;
+        --color-primary-element: #8839ef;
+        --color-primary-element-rgb: 136, 57, 239;
         --color-primary-element-hover: #a6adc8;
 
-        --color-primary-element-text: #4c4f69;
+        --color-primary-element-text: #eff1f5;
 
         --color-primary-element-light: #ccd0da;
         --color-primary-element-light-rgb: 204, 208, 218;
         --color-primary-element-light-hover: #e6e9ef;
     }
 }
+
 /* Fixes wrong title color in tasks app */
 .app-navigation-caption__title {
     color: var(--color-main-text) !important; /* !important needed for theming apps */
 }
+
+/* [!] This is fixed in the current version of nextcloud [!] */
 /* Fixes wrong bubble text color in tasks and forms app */
-.counter-bubble__counter {
-    color: var(--color-primary-element-text) !important; /* !important needed for theming apps */
-}
+/* .counter-bubble__counter { */
+    /* color: var(--color-primary-element-text) !important; !important needed for theming apps */
+/* }  */
 
 /* Fixes wrong title color in forms public view */
 .header-appname {
