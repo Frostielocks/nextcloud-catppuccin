@@ -55,7 +55,7 @@
         --color-main-background-rgb: 239, 241, 245;
         --color-main-background-translucent: rgba(var(--color-main-background-rgb), .97);
         --color-main-background-blur: rgba(var(--color-main-background-rgb), .8);
-        --color-background-hover: #ccd0da;
+        --color-background-hover: #acb0be
         --color-background-dark: #e6e9ef;
         --color-background-dark-rgb: 230, 233, 239;
         --color-background-dark-blur: rgba(var(--color-background-dark-rgb), .8);
